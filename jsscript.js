@@ -1,7 +1,5 @@
 let bulbState = false;
 
-
-
 function ChangeBulbState() {
     
     let element = document.getElementById("Bulb");
@@ -18,4 +16,4 @@ function ChangeBulbState() {
     }
     
   }
-  document.getElementById("ChangeButton").addEventListener("click", changeBulbState);
+  document.getElementById("ChangeButton").addEventListener("click", ChangeBulbState);
